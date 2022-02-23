@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:drawable="@drawable/ic_bnc_back"/>
+        <item
+            android:height="22dp"
+            android:width="15.9dp"
+            android:gravity="center"
+            android:drawable="@drawable/ic_bnc_sym"/>
+</layer-list>

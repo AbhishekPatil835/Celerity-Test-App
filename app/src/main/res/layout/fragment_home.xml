@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.HomeFragment">
+
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+     <androidx.cardview.widget.CardView
+         android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+
+        app:cardCornerRadius="18dp"
+        android:elevation="0.5dp"
+        android:layout_margin="10dp"
+        >
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+             android:background="@drawable/layerlist_card"
+             android:orientation="vertical"
+             android:paddingBottom="30dp">
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Start Investing Now!"
+                 android:textSize="18dp"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginTop="20dp"
+                 android:textColor="@color/white"
+                 android:textStyle="bold"
+                 android:id="@+id/start_investing_text"
+                 />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="₹ 500"
+                 android:textSize="30dp"
+                 android:layout_marginLeft="20dp"
+                 android:textColor="@color/white"
+                 android:textStyle="bold"
+
+                 />
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+
+                 android:orientation="horizontal"
+                 android:layout_marginTop="20dp"
+                 android:gravity="center"
+                 android:layout_marginHorizontal="20dp"
+
+
+                 >
+                 <Button
+                     android:id="@+id/invest_button"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Invest"
+                     android:textSize="16dp"
+                     android:layout_marginRight="25dp"
+                     android:layout_gravity="left"
+                    android:textAllCaps="false"
+                     android:paddingVertical="15dp"
+                     android:textColor="@color/white"
+
+                     android:background="@drawable/ic_bluebutton_background"
+                     />
+                 <Button
+                     android:id="@+id/withdraw_button"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Withdraw"
+                     android:paddingVertical="15dp"
+                     android:textSize="16dp"
+                     android:textColor="@color/blue"
+                     android:textAllCaps="false"
+                     android:layout_marginLeft="25dp"
+
+                     android:background="@drawable/ic_whitebutton_background"
+                     />
+
+             </LinearLayout>
+
+
+
+         </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/top_perform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardview"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="Top performing"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="18dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:orientation="vertical"
+            android:layout_below="@id/top_perform"
+
+
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btc_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+
+                android:layout_marginBottom="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:background="@drawable/ic_whitebutton_background"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layerlist_bitcoin"
+                        android:layout_margin="2dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="BTC"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="12dp"
+                            android:text="+1.6%"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_btc_graph"
+                        android:layout_marginLeft="45dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="right"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginLeft="5dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹ 29,850.15"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="1BTC"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/eth_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:layout_marginBottom="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:background="@drawable/ic_whitebutton_background"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layerlist_eth"
+                        android:layout_margin="2dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="ETH"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="12dp"
+                            android:text="-0.82%"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_eth_graph"
+                        android:layout_marginLeft="45dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="right"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginLeft="5dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹ 10,561.24"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="1ETH"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/usdt_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:layout_marginBottom="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:background="@drawable/ic_whitebutton_background"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layerlist_usdt"
+                        android:layout_margin="2dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="USDT"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="12dp"
+                            android:text="-2.10%"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_usdt_graph"
+                        android:layout_marginLeft="45dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="right"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginLeft="5dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹ 3,676.76"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="1USDT"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bnc_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+
+                android:layout_marginBottom="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:background="@drawable/ic_whitebutton_background"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layerlist_bnc"
+                        android:layout_margin="2dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="BNC"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="12dp"
+                            android:text="+0.27%"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_bnc_graph"
+                        android:layout_marginLeft="45dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="right"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginLeft="5dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹ 5,241.62"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="1BNC"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/icp_card1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:layout_marginBottom="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:background="@drawable/ic_whitebutton_background"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layerlist_icp"
+                        android:layout_margin="2dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="ICP"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="12dp"
+                            android:text="-0.27%"
+                            android:lineSpacingExtra="2dp"
+                            android:gravity="center_vertical"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_icp_graph"
+                        android:layout_marginLeft="45dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="right"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginLeft="5dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹ 5,241.62"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="1ICP"
+                            android:lineSpacingExtra="2sp"
+                            android:gravity="right|center_vertical"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>
+
+</ScrollView>
+
+</FrameLayout>

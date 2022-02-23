@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable-v24/edit_text_background1.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.121" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/bitcoin_symbol.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/bitcoin_symbol_background.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/home_icon.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_bitcoin_logo.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_bnc_sym.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_credit_card2.xml" value="0.121" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_credit_card_1.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_creditcard_back.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_ellipse_44.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_eth_background.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_eth_graph.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_eth_sym.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_gardiant_card_background.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_gradiant_card_background.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_home_icon.xml" value="0.121" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_icp_sym.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_market_icon.xml" value="0.121" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_mastercard_logo.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_news_icon.xml" value="0.121" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_notification_bell_icon.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_port_pie_chart.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_portfolio_icon.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_textview_back.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_usdt_sym.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/ic_whitebutton_background.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_bitcoin.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_bnc.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_card.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_eth.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_graph.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_icp.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_piechart.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/drawable/layerlist_usdt.xml" value="0.2075" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/activity_cards.xml" value="0.4900398406374502" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/activity_details_bitcoin.xml" value="0.264" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/activity_main.xml" value="0.21203703703703702" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/fragment_market.xml" value="0.1" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/fragment_news.xml" value="0.15789473684210525" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/fragment_portfolio.xml" value="0.176" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/layout/fragment_profile.xml" value="0.15789473684210525" />
+        <entry key="..\:/Flutter Projects/CelerityTestApp/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

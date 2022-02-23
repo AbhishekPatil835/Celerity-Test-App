@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_icon"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_portpholio"
+        android:icon="@drawable/ic_portfolio_icon"
+        android:title="Portfolio"/>
+
+
+    <item
+        android:id="@+id/nav_market"
+        android:icon="@drawable/ic_market_icon"
+        android:title="Market" />
+
+
+    <item android:id="@+id/nav_news"
+        android:icon="@drawable/ic_news_icon"
+        android:title="News"/>
+
+
+
+    <item android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="Profile"/>
+
+</menu>
